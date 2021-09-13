@@ -16,9 +16,15 @@
             "email": "ciaran@square1.io"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/GastonGelhorn/resized-php"
+        }
+    ],
     "require": {
         "php": "7.*|^8.0",
-        "square1/resized": "~1.2.0"
+        "square1/resized": "dev-update-to-php8"
     },
     "require-dev": {
         "laravel/framework": "^8.12",
